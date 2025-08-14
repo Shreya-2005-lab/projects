@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+#nav-part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav h3{
+    font-size: 16px;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+#nav i{
+    font-size: 17px;
+    border: 1.5px solid black;
+    padding: 5px 8px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+#nav h1{
+font-weight: 500;
+font-size: 22px;
+text-transform: uppercase;
+}
+
+#nav button{
+    padding: 7px 12px;
+    border-radius: 15px;
+    border: 1.5px solid black;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+}
+
+#nav .btn2{
+    background-color: rgb(240, 67, 4);
+    color: white;
+    border: none;
+}
+
+#main>h1{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 120px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    width: 280px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+}
+
+#img1{
+    transform: translate(-50%,-50%) rotate(-45deg);
+}
+
+#img2{
+    transform: translate(-50%,-50%) rotate(-35deg);
+}
+
+#img3{
+    transform: translate(-50%,-50%) rotate(-25deg);
+}
+
+#img4{
+    transform: translate(-50%,-50%) rotate(-15deg);
+}
+
+#img5{
+    transform: translate(-50%,-50%) rotate(-5deg);
+}
+
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 30px;
+    font-size: 17px;
+}
+
+.arrow{
+    position: absolute;
+    left: 50%;
+    bottom: 2%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: larger;
+    padding: 10px 20px;
+}

@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    /* margin: 10px;
+    padding: 10px; */
+}
+
+#nav h3{
+    margin: 5px;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    /* position: fixed; */
+}
+#intro{
+    padding: 50px 60px;
+    height: 45%;
+    width: 100%;
+}
+
+#intro h1{
+    font-size: 140px;
+    line-height: 120px;
+    letter-spacing: -3px;
+}
+
+#orig{
+    display: flex;
+    justify-content: space-between;
+}
+
+#orig>h5{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#place{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#place h3, #place h4{
+    font-size: 20px;
+}
+
+img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    padding: 20px ;
+}
+
+#about{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+}
+
+#about h2{
+    width: 60%;
+    font-size: 55px;
+    line-height: 60px;
+}
+
+#about02 {
+    height: 100%;
+    width: 35%;
+    border-left: 2px solid black;
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+i{
+    border: 2px solid black;
+    border-radius: 100%;
+    color: white;
+    background-color: black;
+}
+
+#work{
+    display: flex;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 40px;
+    margin: 20px;
+}
+
+i{
+    color: black;
+    background-color: white;
+    border: none;
+    font-size: larger;
+}
+
+#art{
+    display: flex;
+}
+
+#motion{
+    display: flex;
+}
+
+#what{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    height: 100%;
+    padding: 50px 60px;
+    font-size: 20px;
+}
+
+#design{
+    width: 60%;
+    height: 100%;
+    border-left: 2px solid black;
+    padding: 50px 60px;
+}
+
+#design>h2{
+ letter-spacing: 4px;
+}
+
+#art{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 35px;
+}
+
+#artdesign{
+    border-left: 2px solid black;
+    padding-left:60px;
+}
+
+#digitaldesign{
+    padding-right: 60px;
+}
+
+#motion{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+#motiondesign{
+    border-left: 2px solid black;
+    padding-left:60px;
+}
+
+#interactiondesign{
+    padding-right: 30px;
+}
+
+#content{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 55px;
+}
